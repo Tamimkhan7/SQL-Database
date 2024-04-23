@@ -1,0 +1,22 @@
+SELECT * FROM Customers
+WHERE Country='Mexico';
+
+/*numeric fields should not be enclosed in quotes:*/
+SELECT * FROM Customers
+WHERE CustomerID=1;
+
+/*using between keyword where value follow to the condition*/
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+
+
+/*using like keyword to the databases where city first char is s but other char don't know me what is the other char*/
+
+SELECT * FROM Customers
+WHERE City LIKE 's%';
+
+/*using IN keyword to the database where city between paris and london
+IN and between keyword are same, which is same keyword they are work similar to the database*/
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');

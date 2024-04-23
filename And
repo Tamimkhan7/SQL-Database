@@ -1,0 +1,19 @@
+-- The WHERE clause can contain one or many AND operators.
+
+-- The AND operator is used to filter records based on more than one condition, like if you want to return all customers from Spain that starts with the letter 'G':
+
+Select * from Customers
+where country= 'spain' AND customername like 'G%';
+
+-- All Conditions Must Be True
+
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND City = 'Berlin'
+AND PostalCode > 12000;
+
+
+-- Combining AND and OR
+
+SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');

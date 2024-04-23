@@ -1,0 +1,14 @@
+<!-- The OR operator is used to filter records based on more than one condition, like if you want to return all customers from Germany but also those from Spain: -->
+
+select * from customer
+where country = 'Germany' OR country = 'Spain';
+
+<!-- At Least One Condition Must Be True -->
+
+SELECT * FROM Customers
+WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
+
+<!-- Combining AND and OR -->
+
+SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');

@@ -1,0 +1,6 @@
+SELECT CustomerName, City FROM Customers;
+/*ami CustomerName and city dekhte cacci Customers database theke*/
+
+SELECT * FROM Customers;
+/*Customers table theke sob gula data dekhte cacci
+ keyword holo All data show korar jonno use kora hoy*/

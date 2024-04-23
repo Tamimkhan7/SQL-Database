@@ -1,0 +1,11 @@
+/*Select all the different countries from the "Customers" table:*/
+Select distinct country from customers;
+/*Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.*/
+
+Select COUNT(distinct country)
+from customers;
+/*COUNT(DISTINCT column_name) is not supported in Microsoft Access databases.*/
+
+
+Select count(*) AS distinctcountries
+from (Select distinct country from customer);
