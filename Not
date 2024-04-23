@@ -1,0 +1,16 @@
+-- The NOT operator is used in combination with other operators to give the opposite result, also called the negative result.
+
+SELECT * FROM Customers
+WHERE NOT Country = 'Spain' AND NOT country = 'USA' and CustomerName NOT like 'w%';
+
+
+-- NOT BETWEEN
+-- amar customerid 10 theke 60 ar modde sokol value dekhabe
+
+Select * from customer
+where CustomerID between 10 and 60;
+
+-- NOT Greater Than
+
+SELECT * FROM Customers
+WHERE NOT CustomerID > 50;

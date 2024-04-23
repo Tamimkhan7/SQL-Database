@@ -1,0 +1,17 @@
+<!-- How to Test for NULL Values
+
+We will have to use the IS NULL and IS NOT NULL operators instead.
+
+
+The IS NULL Operator -->
+
+select *
+from customer
+where address IS NULL;
+
+
+<!-- The IS NOT NULL Operator -->
+
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
