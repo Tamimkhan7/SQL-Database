@@ -10,4 +10,4 @@ COUNT() - returns the number of rows in a set
 SUM() - returns the total sum of a numerical column
 AVG() - returns the average value of a numerical column
 
--- Aggregate functions ignore null values (except for COUNT()).
+-- Aggregate functions ignore null values (except for COUNT()).m
