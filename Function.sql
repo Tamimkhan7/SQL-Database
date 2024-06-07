@@ -107,4 +107,143 @@ select substr ("Tamim khan is cool", 5, 3)  as extractstring;--akta string theke
 
 -- MySQL SUBSTRING_INDEX() Function
 -- Return a substring of a string before a specified number of delimiter occurs:
-select SUBSTRING_INDEX("www.w3schools.com", ".", 1);
+select SUBSTRING_INDEX("www.w3schools.com", ".", 1);--joid amar aspect occure ghote tahole ami close kore dibo
+
+
+-- MySQL TRIM() Function
+-- Remove leading and trailing spaces from a string:
+select  trim ('  tamim khan ') as trimmedstring;
+
+-- MySQL UCASE() Function
+-- Convert the text to upper-case:
+
+SELECT UCASE("SQL Tutorial is FUN!");
+
+-- MySQL UPPER() Function
+-- Convert the text to upper-case:
+
+SELECT UPPER("SQL Tutorial is FUN!");
+
+
+-- MySQL ABS() Function
+SELECT ABS(-243.5);
+
+-- MySQL ACOS() Function
+-- Return the arc cosine of a number:
+SELECT ACOS(0.25);
+
+-- MySQL ASIN() Function
+-- Return the arc sine of a number:
+
+select ASIN(0.25);
+
+MySQL ATAN() Function
+select atan(0.25);
+
+
+-- MySQL ATAN2() Function
+-- Return the arc tangent of two values:
+
+select Atan(0.50, 1);
+
+-- MySQL CEIL() Function
+-- Return the smallest integer value that is greater than or equal to 25.75:
+
+SELECT CEIL(25.75);
+
+-- MySQL CEILING() Function
+-- Return the smallest integer value that is greater than or equal to 25.75:
+
+select CEILING (25.75);
+
+-- MySQL COS() Function
+-- Return the cosine of a number:
+select cos(2);
+
+-- MySQL COT() Function
+-- as per cos
+
+-- MySQL DEGREES() Function
+-- Convert the radian value into degrees:
+
+select degrees(1.5);
+
+
+-- MySQL DIV Function
+-- Integer division (10/5):
+select  10 div 5;
+
+-- MySQL EXP() Function
+-- Return e raised to the power of 1:
+select exp(1);
+
+-- MySQL FLOOR() Function
+-- Return the largest integer value that is less than or equal to 25.75:
+select FLOOR(25.75);
+
+-- MySQL GREATEST() Function
+-- Return the greatest value of the list of arguments:
+
+select greatest(3,12,34,8,25);
+
+
+-- MySQL LEAST() Function
+-- Return the smallest value of the list of arguments:
+
+select least(3,12,34);
+
+-- MySQL LN() Function
+-- Return the natural logarithm of 2:
+
+select ln(220);
+
+-- MySQL LOG() Function
+-- Return the natural logarithm of 2:
+
+SELECT LOG(2);
+
+-- MySQL LOG10() Function
+-- Return the base-10 logarithm of 2:
+select log10(2);
+
+-- MySQL LOG2() Function
+-- Return the base-2 logarithm of 6:
+
+SELECT LOG2(6);
+
+
+-- MySQL PI() Function
+-- Return the value of PI:
+
+select PI();
+
+-- MySQL POWER() Function
+-- Return 4 raised to the second power:
+
+SELECT POWER(4, 2);
+
+-- MySQL RADIANS() Function
+-- Convert a degree value into radians:
+select radians(180);
+
+
+-- MySQL RAND() Function
+-- Return a random decimal number (no seed value - so it returns a completely random number >= 0 and <1):
+
+SELECT RAND();
+
+-- MySQL ROUND() Function
+-- Round the number to 2 decimal places:
+
+SELECT ROUND(135.375, 2);
+
+-- MySQL SIGN() Function
+-- Return the sign of a number:
+
+SELECT SIGN(255.5);--sing bit means last bit to the value
+
+-- MySQL TRUNCATE() Function
+-- Return a number truncated to 2 decimal places:
+
+SELECT TRUNCATE(135.375, 2);
+
